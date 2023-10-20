@@ -18,7 +18,7 @@ const port = 3000;
 //});
 
 app.get("/", async (req, res) => {
-  db.any("SELECT * from public.person")
+  db.any("SELECT * from public.users")
     .then((data) => res.send(data))
     .catch((err) => res.send(err));
 });
