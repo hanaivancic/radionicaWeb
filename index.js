@@ -2,7 +2,7 @@ const express = require("express");
 const pgp = require("pg-promise")();
 
 const db = pgp(
-  "postgres://radionica_baza_user:SP7LJqCRhrxgtLLsNbOUeM89W9resgJD@dpg-ckp4fbs1tcps739v160g-a.frankfurt-postgres.render.com/radionica_baza"
+  "postgres://radionica_baza_user:SP7LJqCRhrxgtLLsNbOUeM89W9resgJD@dpg-ckp4fbs1tcps739v160g-a/radionica_baza"
 );
 var cors = require("cors");
 const app = express();
